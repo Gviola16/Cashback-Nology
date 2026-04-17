@@ -63,14 +63,6 @@ python -m http.server 3000
 > **Nota:** Se o backend não estiver rodando em `localhost:8000`, edite a linha
 > `const API_BASE = 'http://localhost:8000';` em `frontend/index.html`.
 
-## Regras de Negócio
-
-| Etapa | Regra | Fonte |
-|-------|-------|-------|
-| 1 | Cashback base = **5%** do valor da compra | Doc 1 – Product Owner |
-| 2 | Compras **> R$ 500** → cashback base × 2 | Doc 2 – Diretor Comercial |
-| 3 | Clientes **VIP** → cashback × 1.10 (+10% bônus) | Doc 1 + Reunião |
-
 **Exemplos:**
 
 | Cliente | Valor | Base | 2× | Bônus VIP | Total |
