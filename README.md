@@ -2,6 +2,11 @@
 
 Data de criação: 17/04/2026. Projeto de site para cashback desenvolvido em 2 dias para processo seletivo na Nology.
 
+## Links para Testes (Produção)
+
+- Frontend: [https://cashback-nology-frontend.onrender.com/](https://cashback-nology-frontend.onrender.com/)
+- Swagger (API): [https://cashback-nology-nkdz.onrender.com/docs#/default/get_history_api_history_get](https://cashback-nology-nkdz.onrender.com/docs#/default/get_history_api_history_get)
+
 ## Estrutura
 
 ```
