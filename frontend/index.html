@@ -904,8 +904,9 @@
 
   <script>
     // ─── CONFIG ────────────────────────────────────────────────
-    // Altere para a URL do seu backend Python em produção
-    const API_BASE = 'http://localhost:8000';
+    // Em produção, defina window.CASHVAULT_API_BASE antes deste script
+    // Ex.: <script>window.CASHVAULT_API_BASE='https://seu-backend.onrender.com'</script>
+    const API_BASE = window.CASHVAULT_API_BASE || 'http://localhost:8000';
 
     // ─── STATE ────────────────────────────────────────────────
     let selectedType = 'regular';
